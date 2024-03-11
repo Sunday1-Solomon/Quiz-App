@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN PAGE</title>
+    <link rel="stylesheet" href="./Admin.css">
+</head>
+
+<body>
+
+
+
+    <h1>Quiz Admin Dashboard</h1>
+
+    <div class="adminContainer">
+        <div class="formContainer">
+            <form id="questionForm">
+                <label>Question:</label><br>
+                <input type="text" id="question"><br><br>
+
+                <label>Option A:</label><br>
+                <input type="text" id="answer1"><br><br>
+
+                <label>Option B:</label><br>
+                <input type="text" id="answer2"><br><br>
+
+                <label>Option C:</label><br>
+                <input type="text" id="answer3"><br><br>
+
+                <label>Correct Answer:</label>
+                <select id="correctAnswer">
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">C</option>
+                </select>
+
+                <div class="btnContainer">
+                    <button type="submit">Submit Question</button>
+                    <button id="shuffleBtn">Shuffle Questions</button>
+
+                </div>
+
+            </form>
+        </div>
+
+        <div class="questionDisplay">
+            <ul id="questionList"></ul>
+        </div>
+    </div>
+    <div class="homeBtn">
+        <a href="../Home/Index.html"><button>Home</button></a>
+        <button id="clearBtn">Clear</button>
+    </div>
+
+    <script src="./Admin.js"></script>
+</body>
+
+</html>

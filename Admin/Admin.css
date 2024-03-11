@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://media.istockphoto.com/id/1415740411/photo/empty-classroom.webp?b=1&s=170667a&w=0&k=20&c=K6V85ko0dwzThxpPRW942vz30r_Mpl6iL_zMAKVxid8=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+h1{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 30px;
+    font-family: serif;
+    font-size: 40px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+.adminContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+
+.formContainer{
+    padding: 5px 40px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.questionDisplay{
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    line-height: 25px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+#questionForm{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#questionForm label{
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+}
+
+
+#questionForm input{
+    padding: 10px 200px;
+}
+
+#correctAnswer{
+    padding: 5px 80px;
+}
+
+.btnContainer{
+    margin-top: 20px;
+}
+
+.btnContainer button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: gainsboro;
+    color: black;
+    font-size: 20px;
+    font-family: serif;
+    cursor: pointer;
+}
+
+.homeBtn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.homeBtn button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.homeBtn button:hover{
+    background-color: gainsboro;
+    color: black;
+}

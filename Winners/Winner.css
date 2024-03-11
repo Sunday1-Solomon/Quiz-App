@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+main{
+    width: 100%;
+    padding-top: 150px;
+}
+
+/* Style for table */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dcdcdc;
+  }
+
+  /* Style for main */
+  main h1{
+    text-align: center;
+    background: #dddddd;
+    padding: 30px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-top: -150px;
+    position: fixed;
+    width: 100%;
+  }
+
+  .btnContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+
+  #Home_btn, #display-winners-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #000;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+
+  }
+
+   #display-winners-btn:hover{
+    background-color: gainsboro;
+    color: #000;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+  }
+
+  #Home_btn:hover{
+    background-color: gainsboro;
+    color: #000;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+  }
+
+  

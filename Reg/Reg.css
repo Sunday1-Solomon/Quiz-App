@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: gainsboro;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    text-transform: capitalize;
+}
+
+header p{
+    color: red;
+    text-align: end;
+    margin-top: 35px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* Style the main */
+main{
+    background-image: url("https://media.istockphoto.com/id/1458679872/photo/back-view-of-high-school-students-listening-to-their-teach-on-a-class.webp?b=1&s=170667a&w=0&k=20&c=EAS8BuQYWLOMpcv9pUCaNAc1mWO3v4wGYwoHCX91pw0=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    width: 100%;
+    background-position: center;
+    padding-bottom: 100px;
+}
+
+main h2{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 25px;
+}
+
+/* Style form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label{
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+}
+
+.loginLink p, .signupLink p{
+    color: white;
+    margin-top: 10px;
+}
+
+.signupLink a, .loginLink a{
+    color: blue;
+    text-decoration: none;
+}
+
+label,
+input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px 90px;
+    border-radius: 20px;
+    
+}
+
+select{
+    padding-left: 140px
+}
+
+select, option{
+    padding: 10px 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+/* Style confirmation message */
+#confirmationMessage {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 4px;
+    display: none;
+}
+
+/* Style login form */
+#loginForm {
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: left; 
+  }
+
+  .regDiv{
+    padding: 70px 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    /* filter: drop-shadow(0 50px 20px #000); */
+  }
+
+  .logInDiv{
+    padding: 5px;
+    width: 300px;
+  }
+
+  .regDiv h2, .logInDiv h2{
+    color: white;
+    font-weight: 900;
+    margin-top: -100px;
+  }
+
+  .regLogContainer{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* Style for footer */
+  footer{
+    padding: 15px;
+    background-color: #dcdcdc;
+  }
+
+  footer p{
+    text-align: center;
+  }
